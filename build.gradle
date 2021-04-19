@@ -48,6 +48,12 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
 
     implementation 'mysql:mysql-connector-java'
+
+    // https://mvnrepository.com/artifact/org.dbunit/dbunit
+    implementation group: 'org.dbunit', name: 'dbunit', version: '2.7.0'
+
+    // https://mvnrepository.com/artifact/com.github.springtestdbunit/spring-test-dbunit
+    implementation group: 'com.github.springtestdbunit', name: 'spring-test-dbunit', version: '1.3.0'
 }
 
 test {

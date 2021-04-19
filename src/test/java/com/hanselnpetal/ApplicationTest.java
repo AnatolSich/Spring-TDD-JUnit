@@ -17,6 +17,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@ComponentScan(basePackages = "com.hanselnpetal")
 @AutoConfigureMockMvc
 public class ApplicationTest {
 
